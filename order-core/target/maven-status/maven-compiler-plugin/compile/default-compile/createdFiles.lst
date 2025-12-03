@@ -1,0 +1,13 @@
+com/example/ecom/order/client/FraudClient.class
+com/example/ecom/order/model/QOrder.class
+com/example/ecom/order/config/RabbitMQConfig.class
+com/example/ecom/order/model/QOrder_OrderItem.class
+com/example/ecom/order/client/FraudClient$FraudCheckRequest.class
+com/example/ecom/order/repository/OrderRepositoryImpl.class
+com/example/ecom/order/repository/OrderRepositoryCustom.class
+com/example/ecom/order/client/FraudClient$FraudCheckResponse.class
+com/example/ecom/order/model/Order$OrderItem.class
+com/example/ecom/order/controller/OrderController.class
+com/example/ecom/order/OrderServiceApplication.class
+com/example/ecom/order/repository/OrderRepository.class
+com/example/ecom/order/model/Order.class
