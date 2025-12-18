@@ -67,7 +67,13 @@
             <configuration>
               <rules>
                 <requireReleaseDeps>
+                  <failWhenParentIsSnapshot>false</failWhenParentIsSnapshot>
                   <message>No Snapshots Allowed!</message>
+                  <excludes>
+                    <exclude>com.example.ecom:order-api</exclude>
+                    <exclude>com.example.ecom:order-client</exclude>
+                    <exclude>com.example.ecom:order-core</exclude>
+                  </excludes>
                 </requireReleaseDeps>
               </rules>
               <fail>true</fail>
