@@ -1,11 +1,9 @@
 package com.example.ecom.order.model;
 
-import org.junit.jupiter.api.Test;
-
+import org.junit.Test;
 import java.math.BigDecimal;
 import java.util.Collections;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
 public class OrderTest {
 
